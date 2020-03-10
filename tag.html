@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<!--IE8开启标准的渲染模式-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 视窗的配置 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<title>后台demo</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<!-- 导航 -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- 小屏幕导航按钮和logo -->
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand">Admin.Backstage</a>
+				</div>
+
+				<!-- 导航 -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav ">
+						<li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;后台</a></li>
+						<li><a href="user_list.html"><span class="glyphicon glyphicon-th-list"></span>&nbsp;&nbsp;内容管理</a></li>
+						<li class="active"><a href="tag.html"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								admin
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								<li><a href="index.html"><span class="glyphicon glyphicon-star-empty"></span>返回首页</a></li>
+								<li><a href=""><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;&nbsp;&nbsp;个人主页</a></li>
+								<li><a href=""><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;账户中心</a></li>
+								<li><a href=""><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a></li>
+								<li><a href=""><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a></li>
+							</ul>
+						</li>
+						<li><a href=""><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- 导航 end -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page-header">
+						<h1>TAG标签管理</h1>
+					</div>
+					<div class="col-md-12 pad0">
+						<form action="">
+							<div class="col-md-10">
+								<input type="text" class="form-control" placeholder="请输入要添加的标签">
+							</div>
+							<div class="col-md-2">
+								<button type="sumbit" class="btn btn-default">添加</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-12 taglist">
+						<div class="alert alert-success alert-dismissible pull-left" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<strong>Bootstrap</strong>
+						</div>
+						<div class="alert alert-info alert-dismissible pull-left" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<strong>HTML</strong>
+						</div>
+						<div class="alert alert-warning alert-dismissible pull-left" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<strong>JS</strong> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Copyright&nbsp;2019 </p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer -->
+
+		<!-- 引入jQuery文件 -->
+		<script src="js/jquery.js"></script>
+		<!-- 引入Bootstrap的css样式和js样式 -->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

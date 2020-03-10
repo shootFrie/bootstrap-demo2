@@ -1,0 +1,62 @@
+body{
+	font-family: "microsoft yahei",sans-serif;
+}
+textarea{
+	resize: none;
+}
+/* tag */
+.taglist{
+	padding-top: 15px;
+}
+.taglist .alert{
+	margin:0 15px 15px 0;
+}
+/* 进度条 */
+.progress{
+	margin-bottom: 15px;
+}
+/* 头像 */
+.wh64{
+	width:64px;
+	height:64px;
+	border-radius: 50%;
+}
+/* 边距 */
+.mar_top_15{
+	margin-top: 15px;
+}
+/* page-header */
+.page-header{
+	margin-top: 0;
+}
+/* padding */
+.pad0{
+	padding:0;
+}
+.page-header h1{
+	margin: 0;
+	font-size: 16px;
+}
+/* user_list 操作 */
+.dropdown-menu li{
+	padding-left: 10px;
+}
+/* user_search form边框 */
+.user_search{
+	padding: 10px;
+	border:1px solid #ddd;
+	border-top:none;
+}
+/* footer */
+footer{
+	font-weight: 400;
+	text-align: center;
+	padding:20px;
+}
+
+
+
+
+
+
+
